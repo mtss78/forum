@@ -1,7 +1,3 @@
 <?php
-    include 'app/Views/partials/head.php';
-?>
-
-<?php
-    include 'app/Views/partials/footer.php';
+    require_once(__DIR__ . "/config/router.php");
 ?>
