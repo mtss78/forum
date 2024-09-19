@@ -25,16 +25,10 @@
                         <a class="nav-link active text-white" href="/register">Inscription</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-white" href="/jouets.php">Jouets</a>
+                        <a class="nav-link active text-white" href="/connection">Connexion</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-white" href="/accessoires.php">Accessoires</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" href="/formulaire.php">Contactez-Nous</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" href="/quiSommeNous.php">Qui Sommes-Nous</a>
+                        <a class="nav-link text-white" href="/logout"><i class="fa-solid fa-circle-plus"></i> Deconnexion</a>
                     </li>
                 </ul>
             </div>
