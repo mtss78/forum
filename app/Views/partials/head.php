@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse justify-content-end fw-semibold" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" href="/nourriture.php">Nourriture</a>
+                        <a class="nav-link active text-white" href="/register">Inscription</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active text-white" href="/jouets.php">Jouets</a>
