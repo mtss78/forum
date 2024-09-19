@@ -13,7 +13,8 @@ $routes = [
     '/' => 'HomeController.php',
     '/register' => 'RegisterController.php',
     '/connection' => 'connectionController.php',
-    '/logout' => 'LogoutController.php'
+    '/logout' => 'LogoutController.php',
+    '/users' => 'UsersController.php'
 
 ];
 
