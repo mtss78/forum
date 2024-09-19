@@ -21,20 +21,31 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end fw-semibold" id="navbarNav">
                 <ul class="navbar-nav">
+                <?php 
+                if(isset($_SESSION['user'])){
+                ?>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/logout"><i class="fa-solid fa-circle-plus"></i> Deconnexion</a>
+                </li>
+                <?php
+                if($_SESSION['user']['role']== "Admin"){
+                    ?>
                     <li class="nav-item">
-                        <a class="nav-link active text-white" href="/register">Inscription</a>
+                        <a class="nav-link text-white" href="/users"><i class="fa-solid fa-circle-plus"></i> Utilisateurs</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" href="/connection">Connexion</a>
-                    </li>
-                    <li class="nav-item">
-                <a class="nav-link text-white" href="/users"><i class="fa-solid fa-circle-plus"></i> Utilisateurs</a>
-            </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="/logout"><i class="fa-solid fa-circle-plus"></i> Deconnexion</a>
-                    </li>
-                    
-                </ul>
+                    <?php
+                }
+            } else {
+            ?>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/register"><i class="fa-solid fa-circle-plus"></i> Inscription</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/connection"><i class="fa-solid fa-circle-plus"></i> Connexion</a>
+                </li>
+            <?php
+            }
+            ?>
             </div>
         </div>
     </nav>
