@@ -10,7 +10,9 @@ $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 // Ce tableau associe des chemins d'URI à des fichiers de contrôleurs spécifiques
 // Le chemin dans l'URL (comme '/') est relié au contrôleur correspondant (comme 'HomeController.php')
 $routes = [
+    //LA PAGE D'ACCEUIL
     '/' => 'HomeController.php',
+    //CONNEXION ECONNEXION INSCRIPTION
     '/register' => 'RegisterController.php',
     '/connection' => 'connectionController.php',
     '/logout' => 'LogoutController.php',
@@ -20,7 +22,8 @@ $routes = [
     '/articles' => 'AllArticlesController.php',
     '/article' => 'ArticleController.php',
     '/addArticle' => 'AddArticleController.php',
-    '/editArticle' => 'EditArticleController.php'
+    '/editArticle' => 'EditArticleController.php',
+    '/deleteArticle' => 'deleteArticleController.php'
 ];
 
 
