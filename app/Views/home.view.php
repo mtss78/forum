@@ -15,7 +15,7 @@
            
             <div class="card-body">
                 <p class="card-text"><?= $subject['description'] ?></p>
-                <a href="#" class="btn btn-info">Aller voir le sujet</a>
+                <a href="/articles?id=<?=$subject['id']?>" class="btn btn-info">Aller voir le sujet</a>
             </div>
             </div>
             <?php
