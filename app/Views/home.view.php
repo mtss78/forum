@@ -5,7 +5,7 @@
             <h1>Bienvenue <?= $_SESSION['user']['pseudo'] ?></h1>
         <?php
         if($subjects){
-            foreach($subjects as $subject)
+            foreach($subjects as $subject){
             ?>
             <div class="card">
                 <div class="card-header bg-info">
@@ -19,6 +19,7 @@
             </div>
             </div>
             <?php
+            }
         }
     }else {
 ?>
