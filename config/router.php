@@ -20,6 +20,7 @@ $routes = [
     '/articles' => 'AllArticlesController.php',
     '/article' => 'ArticleController.php',
     '/addArticle' => 'AddArticleController.php',
+    '/editArticle' => 'EditArticleController.php'
 ];
 
 
