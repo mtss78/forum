@@ -32,7 +32,7 @@
         <?php
         }else {
 ?>
-    <h1>Bienvenue à toi !</h1>
+    <h1>Il n'y a pas d'article, encore !</h1>
 <?php
     }
     require_once(__DIR__ . "/../partials/footer.php");
