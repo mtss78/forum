@@ -21,8 +21,8 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end fw-semibold" id="navbarNav">
                 <ul class="navbar-nav">
-                <?php 
-                if(isset($_SESSION['user'])){
+                <?php
+            if(isset($_SESSION['user'])){
                 ?>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="/logout"><i class="fa-solid fa-circle-plus"></i> Deconnexion</a>
@@ -32,6 +32,9 @@
                     ?>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="/users"><i class="fa-solid fa-circle-plus"></i> Utilisateurs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/subject"><i class="fa-solid fa-circle-plus"></i> Ajout sujet</a>
                     </li>
                     <?php
                 }
@@ -46,8 +49,7 @@
             <?php
             }
             ?>
-            </div>
-        </div>
-    </nav>
-</body>
-</html>
+        </ul>
+    </div>
+</nav>
+<div class="myBody">
